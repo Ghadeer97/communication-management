@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include communication_management *.css
+recursive-include communication_management *.csv
+recursive-include communication_management *.html
+recursive-include communication_management *.ico
+recursive-include communication_management *.js
+recursive-include communication_management *.json
+recursive-include communication_management *.md
+recursive-include communication_management *.png
+recursive-include communication_management *.py
+recursive-include communication_management *.svg
+recursive-include communication_management *.txt
+recursive-exclude communication_management *.pyc
